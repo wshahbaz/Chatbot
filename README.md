@@ -1,5 +1,7 @@
 # Navigating Chatbot
 
+![Image of GUI application running](./example.png)
+
 The following chatbot is a Retrieval-Based Chatbot. The chatbot was trained on a dataset containing categories(intents), patterns and responses, using LSTM to classify which category the user's message belongs to. A random resopnse from a list of valid responses and taken and returned to the user.
 
 The dataset was preprocessed using NLKT, and the model was built using Keras. An additional GUI module was built using TKinter.
